@@ -65,7 +65,6 @@ class SampleCodeDetector : Detector(), UastScanner {
          * Issue describing the problem and pointing to the detector
          * implementation.
          */
-        @JvmField
         val ISSUE: Issue = Issue.create(
             // ID: used in @SuppressLint warnings etc
             id = "SampleId",
